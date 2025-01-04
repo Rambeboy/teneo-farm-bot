@@ -147,14 +147,14 @@ function displayAccountData(_0x5511c3) {
   console.log(chalk.whiteBright("Message       : " + messages[_0x5511c3]));
   const _0x1696ed = proxies[_0x5511c3 % proxies.length];
   if (useProxy && _0x1696ed) {
-    console.log(chalk.whiteBright("Proxies     : " + _0x1696ed));
+  console.log(chalk.whiteBright("Proxies       : " + _0x1696ed));
   } else {
-    console.log(chalk.whiteBright("Proxies     : Not using proxy"));
+  console.log(chalk.whiteBright("Proxies       : Not using proxy"));
   }
   console.log(chalk.cyan(_0x5866b8));
   console.log("\nStatus   :");
   if (messages[_0x5511c3].startsWith('Error:')) {
-    console.log(chalk.red("Account " + (_0x5511c3 + 0x1) + ": " + messages[_0x5511c3]));
+  console.log(chalk.red("Account " + (_0x5511c3 + 0x1) + " : " + messages[_0x5511c3]));
   } else {
     console.log("Account " + (_0x5511c3 + 0x1) + ": Potential Points: " + potentialPoints[_0x5511c3] + ", Countdown: " + countdowns[_0x5511c3]);
   }
