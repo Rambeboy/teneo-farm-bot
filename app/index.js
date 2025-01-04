@@ -142,14 +142,14 @@ function displayAccountData(_0x5511c3) {
   console.log(chalk.whiteBright("Email         : " + accounts[_0x5511c3].email));
   console.log(chalk.whiteBright("User ID       : " + userIds[_0x5511c3]));
   console.log(chalk.whiteBright("Browser ID    : " + browserIds[_0x5511c3]));
-  console.log(chalk.green("Points Total        : " + pointsTotals[_0x5511c3]));
-  console.log(chalk.green("Points Today        : " + pointsToday[_0x5511c3]));
+  console.log(chalk.whiteBright("Points Total  : " + pointsTotals[_0x5511c3]));
+  console.log(chalk.whiteBright("Points Today  : " + pointsToday[_0x5511c3]));
   console.log(chalk.whiteBright("Message       : " + messages[_0x5511c3]));
   const _0x1696ed = proxies[_0x5511c3 % proxies.length];
   if (useProxy && _0x1696ed) {
     console.log(chalk.whiteBright("Proxy       : " + _0x1696ed));
   } else {
-    console.log(chalk.hex("#FFA500")("Proxy    : Not using proxy"));
+    console.log(chalk.whiteBright("Proxy       : Not using proxy"));
   }
   console.log(chalk.cyan(_0x5866b8));
   console.log("\nStatus:");
