@@ -1,5 +1,7 @@
 {
   "name": "teneo-farm-bot",
+  "version": "1.0.0",
+  "type": "module",
   "description": "Teneo Extension Beta CLI Version Node Bot",
   "main": "index.js",
   "scripts": {
