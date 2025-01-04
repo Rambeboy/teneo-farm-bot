@@ -55,7 +55,7 @@ Teneo bot is a simple tool designed to automate the node interaction.
    ```bash
    npm run start
    ```
-Use `A` and `D` to move/change view to other accounts, `C` to stop the script.
+   Use `A` and `D` to move/change view to other accounts, `C` to stop the script.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
