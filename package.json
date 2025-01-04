@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cp -r config/config.js app/config.js && cp -r config/proxy_list.js app/proxy_list.js && node app/index.js",
-    "setup": "node scripts/setup.js"
+    "setup": "node --no-warning-- scripts/setup.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
   },
   "keywords": [
     "teneo",
