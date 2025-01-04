@@ -29,8 +29,8 @@ const copyOperations = [
     dest: path.join("config", "config.js"),
   },
   {
-    src: path.join("accounts", "accounts_tmp.js"),
-    dest: path.join("accounts", "accounts.js"),
+    src: path.join("config", "proxy_list_tmp.js"),
+    dest: path.join("config", "proxy_list.js"),
   },
 ];
 
@@ -41,6 +41,6 @@ const copyOperations = [
   }
   console.log(`\nSetup Complete`);
   console.log(
-    `Open and configure\n- accounts/accounts.js\n- config/config.js\n `
+    `Open and Configure\n- config/config.js\n- config/proxy_list.js\n `
   );
 })();
